@@ -1,0 +1,8 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+    <persistence-context-ref>
+        <persistence-context-ref-name>
+            persistence/em
+        </persistence-context-ref-name>
+        <persistence-unit-name>main</persistence-unit-name>
+    </persistence-context-ref>
+</web-app>
